@@ -322,9 +322,14 @@ def matrix(config, b, out):
                 rows.append(result)
             except Exception as e:
                 rows.append(
-                    row | {"status": "execution_failed", "error_type": type(e).__name__}
+                    row
+                    | {
+                        "status": "execution_failed",
+                        "error_type": type(e).__name__,
+                        "error_detail": str(e),
+                    }
                 )
-                print(f"{name} {sku}: {type(e).__name__}", flush=True)
+                print(f"{name} {sku}: {e}", flush=True)
             finally:
                 if created:
                     try:
