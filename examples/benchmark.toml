@@ -1,0 +1,32 @@
+[benchmark]
+duration_s = 60
+load_mode = "rpm" # rpm or concurrency
+rpm = 20
+concurrency = 4
+input_tokens = 3006 # synthetic content tokens; API framing may add tokens
+output_tokens = 302 # maximum, not a forced output length
+warmup_requests = 2
+max_requests = 1000
+timeout_s = 90
+drain_timeout_s = 100
+reasoning_effort = "none"
+cache_mode = "cold" # cold unique prefix, or warm shared prefix
+tokenizer = "o200k_base"
+# prompt_file = "customer-prompt.txt" # overrides synthetic input_tokens
+
+[[targets]]
+label = "my-paygo-endpoint"
+endpoint = "https://YOUR-RESOURCE.openai.azure.com"
+deployment = "YOUR-DEPLOYMENT"
+auth = "api_key" # or azure_cli (az login)
+api_key_env = "AZURE_OPENAI_API_KEY"
+model = "gpt-5.6-luna"
+sku = "DataZoneStandard"
+region = "swedencentral"
+# For management-plane verification add these fields:
+# subscription = "YOUR-SUBSCRIPTION-ID"
+# resource_group = "YOUR-RESOURCE-GROUP"
+# account = "YOUR-RESOURCE"
+# For provisioned targets: sku = "DataZoneProvisionedManaged", ptus = 15
+
+# Add another [[targets]] section for every existing deployment to compare.

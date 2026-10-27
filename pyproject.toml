@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "azure-model-benchmark"
+version = "0.1.0"
+description = "Configurable Azure Responses API benchmarks for PayGo and provisioned models"
+requires-python = ">=3.11"
+dependencies = ["tiktoken>=0.9,<1"]
+
+[project.scripts]
+azbench = "azbench.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["azbench*"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

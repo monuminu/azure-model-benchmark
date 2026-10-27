@@ -1,0 +1,18 @@
+[benchmark]
+duration_s = 60
+rpm = 20
+concurrency = 4
+input_tokens = 3006
+output_tokens = 302
+cache_mode = "cold"
+
+[matrix]
+subscription = "YOUR-SUBSCRIPTION-ID"
+resource_group = "YOUR-RESOURCE-GROUP"
+account = "YOUR-EXISTING-RESOURCE"
+region = "swedencentral"
+models = ["gpt-6-luna", "gpt-6.1-terra", "gpt-5.6-luna", "gpt-5.6-terra"]
+skus = ["GlobalStandard", "DataZoneStandard", "Standard", "GlobalProvisionedManaged", "DataZoneProvisionedManaged", "ProvisionedManaged"]
+ptus = 15
+ptu_regional = 50
+paygo_capacity = 100 # units of 1000 TPM; verify the model's actual rate limits
