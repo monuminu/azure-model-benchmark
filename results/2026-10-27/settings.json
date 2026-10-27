@@ -1,0 +1,18 @@
+{
+  "benchmark": {
+    "duration_s": 60,
+    "concurrency": 4,
+    "rpm": 20,
+    "load_mode": "rpm",
+    "input_tokens": 3006,
+    "output_tokens": 302,
+    "timeout_s": 30,
+    "warmup_requests": 1,
+    "max_requests": 20,
+    "reasoning_effort": "none",
+    "cache_mode": "cold",
+    "tokenizer": "o200k_base",
+    "drain_timeout_s": 40
+  },
+  "api": "responses"
+}

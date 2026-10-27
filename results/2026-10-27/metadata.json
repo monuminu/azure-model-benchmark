@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-27",
+  "api": "/openai/v1/responses",
+  "versions": {
+    "gpt-6-luna": "2026-09-22",
+    "gpt-6.1-terra": "2026-10-26",
+    "gpt-5.6-luna": "2026-07-09",
+    "gpt-5.6-terra": "2026-07-09"
+  },
+  "runner_commit": "d728b543500ab290ec1fc0bf36c8fba0e03990e6",
+  "report_commit": "d00e0ccb762452936eab81c5d430e25c46a11098",
+  "latency_units": "seconds",
+  "workload": "Synthetic support-ticket prompt; exact content target 3006 tokens, service-reported input about 3012; output cap 302; reasoning none; cold prefix; 20 scheduled RPM; concurrency cap 4; 60 seconds; one excluded warmup.",
+  "source": "Live Azure deployments; Azure CLI control-plane verified model/version/SKU/capacity. Regional PTU attempts blocked by subscription policy in East US 2 and West US."
+}

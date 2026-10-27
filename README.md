@@ -2,6 +2,10 @@
 
 Benchmark Azure OpenAI models through the **Responses API**, on PayGo and provisioned (PTU) deployments. Configure the workload in TOML and export the same result schema for every model and SKU.
 
+## Measured results
+
+[27 October 2026: live Responses API table](results/2026-10-27/README.md) — 12 measured deployments, all 24 requested model/type combinations, actual token averages and sanitized request timings.
+
 ## Install
 
 Requires Python 3.11 or newer. Azure CLI is needed for Entra authentication, deployment verification and automatic matrix deployment.
