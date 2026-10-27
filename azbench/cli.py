@@ -37,6 +37,8 @@ COLUMNS = [
     "e2e_95th",
     "read_cache_pct",
     "write_cache_pct",
+    "mean_input_tokens",
+    "mean_output_tokens",
 ]
 
 
@@ -77,6 +79,28 @@ def write_reports(out, rows):
     ]
     lines += ["| " + " | ".join(fmt(r.get(k)) for k in COLUMNS) + " |" for r in rows]
     (out / "summary.md").write_text("\n".join(lines) + "\n")
+
+
+def combine_reports(paths):
+    """Keep first measured result for each exact model/type; enrich skipped rows."""
+    priority = {
+        "measured": 10,
+        "warmup_failed": 5,
+        "execution_failed": 4,
+        "insufficient_capacity": 2,
+        "insufficient_quota": 2,
+        "unsupported_in_region": 0,
+    }
+    selected = {}
+    for path in paths:
+        for row in json.loads(Path(path).read_text()):
+            key = row["model"], row["deployment_type"]
+            previous = selected.get(key)
+            if previous is None or priority.get(row["status"], 1) > priority.get(
+                previous["status"], 1
+            ):
+                selected[key] = row
+    return list(selected.values())
 
 
 def measured(target, b, out):
@@ -362,8 +386,9 @@ def main():
     p = argparse.ArgumentParser(
         description="Azure PayGo and PTU benchmarks using the Responses API"
     )
-    p.add_argument("command", choices=["run", "matrix", "validate"])
-    p.add_argument("--config", required=True)
+    p.add_argument("command", choices=["run", "matrix", "validate", "report"])
+    p.add_argument("--config")
+    p.add_argument("--inputs", nargs="+", help="Summary JSON files to combine")
     p.add_argument("--output", default="runs/latest")
     p.add_argument(
         "--allow-create",
@@ -371,6 +396,17 @@ def main():
         help="Explicitly authorize temporary billable Azure deployments; always cleaned up",
     )
     args = p.parse_args()
+    if args.command == "report":
+        if not args.inputs:
+            p.error("report requires --inputs")
+        out = Path(args.output)
+        if out.exists() and any(out.iterdir()):
+            p.error("Report output directory must be empty")
+        write_reports(out, combine_reports(args.inputs))
+        print(out / "summary.md")
+        return
+    if not args.config:
+        p.error("--config is required")
     config = tomllib.loads(Path(args.config).read_text())
     b = validate_config(config)
     if args.command == "validate":

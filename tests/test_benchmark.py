@@ -1,8 +1,11 @@
 import io
 import json
+import tempfile
 import unittest
+from pathlib import Path
 from unittest.mock import patch
 
+from azbench.cli import combine_reports
 from azbench.core import (
     consume_stream,
     make_prompt,
@@ -13,6 +16,39 @@ from azbench.core import (
 
 
 class MetricsTests(unittest.TestCase):
+    def test_combine_prefers_measured_row_without_selecting_fastest_region(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            a = Path(tmp) / "a.json"
+            b = Path(tmp) / "b.json"
+            a.write_text(
+                json.dumps(
+                    [
+                        {
+                            "model": "test",
+                            "deployment_type": "PTU Regional",
+                            "status": "unsupported_in_region",
+                            "region": "a",
+                        }
+                    ]
+                )
+            )
+            b.write_text(
+                json.dumps(
+                    [
+                        {
+                            "model": "test",
+                            "deployment_type": "PTU Regional",
+                            "status": "measured",
+                            "region": "b",
+                            "e2e_avg": 2,
+                        }
+                    ]
+                )
+            )
+            rows = combine_reports([str(a), str(b)])
+            self.assertEqual(len(rows), 1)
+            self.assertEqual(rows[0]["region"], "b")
+
     def test_nearest_rank_p95_and_empty(self):
         self.assertEqual(percentile(list(range(1, 21)), 0.95), 19)
         self.assertIsNone(percentile([], 0.95))

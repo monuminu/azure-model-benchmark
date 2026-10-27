@@ -79,6 +79,14 @@ Cache percentages are token weighted, not averages of per-request percentages. A
 
 ## Output
 
+Combine results from multiple regions into one model/type table:
+
+```bash
+azbench report --inputs runs/region-one/summary.json runs/region-two/summary.json --output runs/combined
+```
+
+The report keeps the first measured row for an exact model/type. A measured row replaces an unavailable row, but a faster region never silently replaces another measured result. Actual average input/output tokens accompany the timing columns.
+
 - `summary.csv`, `summary.json`, `summary.md`: requested model/deployment metric table.
 - `requests.jsonl`: per-request timings, API, usage, actual returned model and stream status; no prompt or response text.
 - `settings.json`: workload settings and API used.
