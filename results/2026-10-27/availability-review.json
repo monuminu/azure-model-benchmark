@@ -1,0 +1,297 @@
+{
+  "date": "2026-10-27",
+  "capacity_api_version": "2024-10-01",
+  "capacity_queries": [
+    {
+      "subscription_scope": "MCAPS benchmark subscription",
+      "model": "gpt-6-luna",
+      "version": "2026-09-22",
+      "sku": "Standard",
+      "query_scope": "all regions",
+      "result": "not_listed",
+      "matches": []
+    },
+    {
+      "subscription_scope": "MCAPS benchmark subscription",
+      "model": "gpt-6-luna",
+      "version": "2026-09-22",
+      "sku": "ProvisionedManaged",
+      "query_scope": "all regions",
+      "result": "not_listed",
+      "matches": []
+    },
+    {
+      "subscription_scope": "MCAPS benchmark subscription",
+      "model": "gpt-6-luna",
+      "version": "2026-09-22",
+      "sku": "GlobalProvisionedManaged",
+      "query_scope": "all regions",
+      "result": "not_listed",
+      "matches": []
+    },
+    {
+      "subscription_scope": "MCAPS benchmark subscription",
+      "model": "gpt-6-luna",
+      "version": "2026-09-22",
+      "sku": "DataZoneProvisionedManaged",
+      "query_scope": "all regions",
+      "result": "not_listed",
+      "matches": []
+    },
+    {
+      "subscription_scope": "MCAPS benchmark subscription",
+      "model": "gpt-6.1-terra",
+      "version": "2026-10-26",
+      "sku": "Standard",
+      "query_scope": "all regions",
+      "result": "not_listed",
+      "matches": []
+    },
+    {
+      "subscription_scope": "MCAPS benchmark subscription",
+      "model": "gpt-6.1-terra",
+      "version": "2026-10-26",
+      "sku": "ProvisionedManaged",
+      "query_scope": "all regions",
+      "result": "not_listed",
+      "matches": []
+    },
+    {
+      "subscription_scope": "MCAPS benchmark subscription",
+      "model": "gpt-6.1-terra",
+      "version": "2026-10-26",
+      "sku": "GlobalProvisionedManaged",
+      "query_scope": "all regions",
+      "result": "not_listed",
+      "matches": []
+    },
+    {
+      "subscription_scope": "MCAPS benchmark subscription",
+      "model": "gpt-6.1-terra",
+      "version": "2026-10-26",
+      "sku": "DataZoneProvisionedManaged",
+      "query_scope": "all regions",
+      "result": "not_listed",
+      "matches": []
+    },
+    {
+      "subscription_scope": "MCAPS benchmark subscription",
+      "model": "gpt-5.6-luna",
+      "version": "2026-07-09",
+      "sku": "Standard",
+      "query_scope": "all regions",
+      "result": "not_listed",
+      "matches": []
+    },
+    {
+      "subscription_scope": "MCAPS benchmark subscription",
+      "model": "gpt-5.6-luna",
+      "version": "2026-07-09",
+      "sku": "ProvisionedManaged",
+      "query_scope": "all regions",
+      "result": "listed",
+      "matches": [
+        {
+          "region": "eastus2",
+          "available_capacity": 50
+        },
+        {
+          "region": "uksouth",
+          "available_capacity": 50
+        }
+      ]
+    },
+    {
+      "subscription_scope": "MCAPS benchmark subscription",
+      "model": "gpt-5.6-terra",
+      "version": "2026-07-09",
+      "sku": "Standard",
+      "query_scope": "all regions",
+      "result": "not_listed",
+      "matches": []
+    },
+    {
+      "subscription_scope": "MCAPS benchmark subscription",
+      "model": "gpt-5.6-terra",
+      "version": "2026-07-09",
+      "sku": "ProvisionedManaged",
+      "query_scope": "all regions",
+      "result": "listed",
+      "matches": [
+        {
+          "region": "westus",
+          "available_capacity": 50
+        }
+      ]
+    },
+    {
+      "subscription_scope": "Azure AI MaaS subscription",
+      "model": "gpt-6-luna",
+      "version": "2026-09-22",
+      "sku": "Standard",
+      "query_scope": "all regions",
+      "result": "not_listed",
+      "matches": []
+    },
+    {
+      "subscription_scope": "Azure AI MaaS subscription",
+      "model": "gpt-6-luna",
+      "version": "2026-09-22",
+      "sku": "ProvisionedManaged",
+      "query_scope": "all regions",
+      "result": "not_listed",
+      "matches": []
+    },
+    {
+      "subscription_scope": "Azure AI MaaS subscription",
+      "model": "gpt-6-luna",
+      "version": "2026-09-22",
+      "sku": "GlobalProvisionedManaged",
+      "query_scope": "all regions",
+      "result": "not_listed",
+      "matches": []
+    },
+    {
+      "subscription_scope": "Azure AI MaaS subscription",
+      "model": "gpt-6-luna",
+      "version": "2026-09-22",
+      "sku": "DataZoneProvisionedManaged",
+      "query_scope": "all regions",
+      "result": "not_listed",
+      "matches": []
+    },
+    {
+      "subscription_scope": "Azure AI MaaS subscription",
+      "model": "gpt-6.1-terra",
+      "version": "2026-10-26",
+      "sku": "Standard",
+      "query_scope": "all regions",
+      "result": "not_listed",
+      "matches": []
+    },
+    {
+      "subscription_scope": "Azure AI MaaS subscription",
+      "model": "gpt-6.1-terra",
+      "version": "2026-10-26",
+      "sku": "ProvisionedManaged",
+      "query_scope": "all regions",
+      "result": "not_listed",
+      "matches": []
+    },
+    {
+      "subscription_scope": "Azure AI MaaS subscription",
+      "model": "gpt-6.1-terra",
+      "version": "2026-10-26",
+      "sku": "GlobalProvisionedManaged",
+      "query_scope": "all regions",
+      "result": "not_listed",
+      "matches": []
+    },
+    {
+      "subscription_scope": "Azure AI MaaS subscription",
+      "model": "gpt-6.1-terra",
+      "version": "2026-10-26",
+      "sku": "DataZoneProvisionedManaged",
+      "query_scope": "all regions",
+      "result": "not_listed",
+      "matches": []
+    },
+    {
+      "subscription_scope": "Azure AI MaaS subscription",
+      "model": "gpt-5.6-luna",
+      "version": "2026-07-09",
+      "sku": "Standard",
+      "query_scope": "all regions",
+      "result": "not_listed",
+      "matches": []
+    },
+    {
+      "subscription_scope": "Azure AI MaaS subscription",
+      "model": "gpt-5.6-luna",
+      "version": "2026-07-09",
+      "sku": "ProvisionedManaged",
+      "query_scope": "all regions",
+      "result": "listed",
+      "matches": [
+        {
+          "region": "eastus2",
+          "available_capacity": 0
+        },
+        {
+          "region": "uksouth",
+          "available_capacity": 0
+        }
+      ]
+    },
+    {
+      "subscription_scope": "Azure AI MaaS subscription",
+      "model": "gpt-5.6-terra",
+      "version": "2026-07-09",
+      "sku": "Standard",
+      "query_scope": "all regions",
+      "result": "not_listed",
+      "matches": []
+    },
+    {
+      "subscription_scope": "Azure AI MaaS subscription",
+      "model": "gpt-5.6-terra",
+      "version": "2026-07-09",
+      "sku": "ProvisionedManaged",
+      "query_scope": "all regions",
+      "result": "listed",
+      "matches": [
+        {
+          "region": "westus",
+          "available_capacity": 0
+        }
+      ]
+    }
+  ],
+  "quota_checks": [
+    {
+      "subscription_scope": "Azure AI MaaS subscription",
+      "region": "eastus2",
+      "quota_name": "OpenAI.ProvisionedManaged",
+      "limit": 300,
+      "current_value": 0
+    },
+    {
+      "subscription_scope": "Azure AI MaaS subscription",
+      "region": "eastus2",
+      "quota_name": "OpenAI.ProvisionedManaged.gpt-5.6-luna",
+      "limit": 0,
+      "current_value": 0
+    },
+    {
+      "subscription_scope": "Azure AI MaaS subscription",
+      "region": "uksouth",
+      "quota_name": "OpenAI.ProvisionedManaged",
+      "limit": 300,
+      "current_value": 0
+    },
+    {
+      "subscription_scope": "Azure AI MaaS subscription",
+      "region": "uksouth",
+      "quota_name": "OpenAI.ProvisionedManaged.gpt-5.6-luna",
+      "limit": 0,
+      "current_value": 0
+    },
+    {
+      "subscription_scope": "Azure AI MaaS subscription",
+      "region": "westus",
+      "quota_name": "OpenAI.ProvisionedManaged.gpt-5.6-terra",
+      "limit": 0,
+      "current_value": 0
+    }
+  ],
+  "additional_deployment_attempts": [
+    {
+      "model": "gpt-5.6-luna",
+      "sku": "ProvisionedManaged",
+      "region": "uksouth",
+      "ptus": 50,
+      "subscription_scope": "MCAPS benchmark subscription",
+      "result": "RequestDisallowedByPolicy"
+    }
+  ]
+}

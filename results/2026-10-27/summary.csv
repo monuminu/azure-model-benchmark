@@ -1,25 +1,25 @@
 model,deployment_type,region,ptus,status,requests,successes,failures,ttft_95th,ttft_avg,tbt_avg,tbt_95th,e2e_avg,e2e_95th,read_cache_pct,write_cache_pct,mean_input_tokens,mean_output_tokens
 gpt-6-luna,PayGo Global,swedencentral,,measured,20,20,0,2.569828708001296,1.785817075050727,0.00869888186981563,0.010165650862071399,2.5546895582501747,4.066583625004569,0.0,99.9003984063745,3012,81.45
 gpt-6-luna,PayGo Data Zone,swedencentral,,measured,20,19,1,2.5522205000015674,1.5631052959996803,0.009992400580201215,0.029207652272651267,2.2567615197894106,3.8265416670037666,0.0,99.9003984063745,3012,69.05263157894737
-gpt-6-luna,PayGo Regional,swedencentral,,unsupported_in_region,0,0,0,,,,,,,,,,
-gpt-6-luna,PTU Global,swedencentral,,unsupported_in_region,0,0,0,,,,,,,,,,
-gpt-6-luna,PTU Data Zone,swedencentral,,unsupported_in_region,0,0,0,,,,,,,,,,
-gpt-6-luna,PTU Regional,swedencentral,,unsupported_in_region,0,0,0,,,,,,,,,,
+gpt-6-luna,PayGo Regional,all_regions_checked,,not_listed_in_checked_subscriptions,0,0,0,,,,,,,,,,
+gpt-6-luna,PTU Global,all_regions_checked,,not_listed_in_checked_subscriptions,0,0,0,,,,,,,,,,
+gpt-6-luna,PTU Data Zone,all_regions_checked,,not_listed_in_checked_subscriptions,0,0,0,,,,,,,,,,
+gpt-6-luna,PTU Regional,all_regions_checked,,not_listed_in_checked_subscriptions,0,0,0,,,,,,,,,,
 gpt-6.1-terra,PayGo Global,swedencentral,,measured,20,20,0,2.707777374998841,1.9035546479499317,0.006937411669116562,0.01014843749993209,2.486723331200119,3.3672254160046577,0.0,99.9003984063745,3012,90.3
 gpt-6.1-terra,PayGo Data Zone,swedencentral,,measured,20,19,1,2.669233250002435,1.6080465373153474,0.006255113981628368,0.008953080448228665,2.1753701578422087,3.281947208000929,0.0,99.9003984063745,3012,92.47368421052632
-gpt-6.1-terra,PayGo Regional,swedencentral,,unsupported_in_region,0,0,0,,,,,,,,,,
-gpt-6.1-terra,PTU Global,swedencentral,,unsupported_in_region,0,0,0,,,,,,,,,,
-gpt-6.1-terra,PTU Data Zone,swedencentral,,unsupported_in_region,0,0,0,,,,,,,,,,
-gpt-6.1-terra,PTU Regional,swedencentral,,unsupported_in_region,0,0,0,,,,,,,,,,
+gpt-6.1-terra,PayGo Regional,all_regions_checked,,not_listed_in_checked_subscriptions,0,0,0,,,,,,,,,,
+gpt-6.1-terra,PTU Global,all_regions_checked,,not_listed_in_checked_subscriptions,0,0,0,,,,,,,,,,
+gpt-6.1-terra,PTU Data Zone,all_regions_checked,,not_listed_in_checked_subscriptions,0,0,0,,,,,,,,,,
+gpt-6.1-terra,PTU Regional,all_regions_checked,,not_listed_in_checked_subscriptions,0,0,0,,,,,,,,,,
 gpt-5.6-luna,PayGo Global,swedencentral,,measured,20,20,0,2.4068637909949757,1.8912247373995341,0.0053923996027564385,0.0060849684385392904,3.4814206165498036,4.065912332996959,0.0,99.9003984063745,3012,292.85
 gpt-5.6-luna,PayGo Data Zone,swedencentral,,measured,20,20,0,1.899390416998358,1.4653690124989225,0.006098809029595464,0.006572656840539655,3.2276840957991224,3.6140312919960706,0.0,99.9003984063745,3012,287.7
-gpt-5.6-luna,PayGo Regional,swedencentral,,unsupported_in_region,0,0,0,,,,,,,,,,
+gpt-5.6-luna,PayGo Regional,all_regions_checked,,not_listed_in_checked_subscriptions,0,0,0,,,,,,,,,,
 gpt-5.6-luna,PTU Global,swedencentral,15,measured,20,19,1,2.22794354200596,1.9936607148418644,0.004864432601812966,0.005718274501652613,3.4245637850521904,3.911161666001135,0.0,0.0,3012,293.3157894736842
 gpt-5.6-luna,PTU Data Zone,swedencentral,15,measured,20,20,0,1.6224121670020395,1.3896014668003773,0.004901598096083138,0.005314491491662921,2.8267589437993594,3.0916184590023477,0.0,0.0,3012,292.9
 gpt-5.6-luna,PTU Regional,eastus2,50,blocked_by_policy,0,0,0,,,,,,,,,,
 gpt-5.6-terra,PayGo Global,swedencentral,,measured,20,20,0,1.858408625004813,2.033856935449512,0.00801770294321517,0.008662816996677845,4.419655127000079,4.66992404100165,0.0,99.9003984063745,3012,296.55
 gpt-5.6-terra,PayGo Data Zone,swedencentral,,measured,20,20,0,4.725920749995566,2.19158924569856,0.00829405843357328,0.008964609498343936,4.665985399949568,10.341290666998248,0.0,99.9003984063745,3012,296.55
-gpt-5.6-terra,PayGo Regional,swedencentral,,unsupported_in_region,0,0,0,,,,,,,,,,
+gpt-5.6-terra,PayGo Regional,all_regions_checked,,not_listed_in_checked_subscriptions,0,0,0,,,,,,,,,,
 gpt-5.6-terra,PTU Global,swedencentral,15,measured,20,18,2,1.9868151249975199,1.697990581111905,0.0076157897732725835,0.0084058828903542,3.9145894282224214,4.434736999995948,0.0,0.0,3012,290.55555555555554
 gpt-5.6-terra,PTU Data Zone,swedencentral,15,measured,20,18,2,1.8273035000020172,1.6365590579452045,0.00780364851348321,0.012146762458472574,3.9822592571116626,5.412408625001262,0.0,0.0,3012,299.5
 gpt-5.6-terra,PTU Regional,westus,50,blocked_by_policy,0,0,0,,,,,,,,,,

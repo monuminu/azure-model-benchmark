@@ -40,17 +40,17 @@ Live measurements from temporary deployments in **Sweden Central**, using the re
 
 | Model | Deployment | Region checked | Result |
 |---|---|---|---|
-| gpt-6-luna | PayGo Regional | swedencentral | unsupported_in_region |
-| gpt-6-luna | PTU Global | swedencentral | unsupported_in_region |
-| gpt-6-luna | PTU Data Zone | swedencentral | unsupported_in_region |
-| gpt-6-luna | PTU Regional | swedencentral | unsupported_in_region |
-| gpt-6.1-terra | PayGo Regional | swedencentral | unsupported_in_region |
-| gpt-6.1-terra | PTU Global | swedencentral | unsupported_in_region |
-| gpt-6.1-terra | PTU Data Zone | swedencentral | unsupported_in_region |
-| gpt-6.1-terra | PTU Regional | swedencentral | unsupported_in_region |
-| gpt-5.6-luna | PayGo Regional | swedencentral | unsupported_in_region |
+| gpt-6-luna | PayGo Regional | All regions in the two checked subscriptions | not_listed_in_checked_subscriptions |
+| gpt-6-luna | PTU Global | All regions in the two checked subscriptions | not_listed_in_checked_subscriptions |
+| gpt-6-luna | PTU Data Zone | All regions in the two checked subscriptions | not_listed_in_checked_subscriptions |
+| gpt-6-luna | PTU Regional | All regions in the two checked subscriptions | not_listed_in_checked_subscriptions |
+| gpt-6.1-terra | PayGo Regional | All regions in the two checked subscriptions | not_listed_in_checked_subscriptions |
+| gpt-6.1-terra | PTU Global | All regions in the two checked subscriptions | not_listed_in_checked_subscriptions |
+| gpt-6.1-terra | PTU Data Zone | All regions in the two checked subscriptions | not_listed_in_checked_subscriptions |
+| gpt-6.1-terra | PTU Regional | All regions in the two checked subscriptions | not_listed_in_checked_subscriptions |
+| gpt-5.6-luna | PayGo Regional | All regions in the two checked subscriptions | not_listed_in_checked_subscriptions |
 | gpt-5.6-luna | PTU Regional | eastus2 | blocked_by_policy |
-| gpt-5.6-terra | PayGo Regional | swedencentral | unsupported_in_region |
+| gpt-5.6-terra | PayGo Regional | All regions in the two checked subscriptions | not_listed_in_checked_subscriptions |
 | gpt-5.6-terra | PTU Regional | westus | blocked_by_policy |
 
 TBT p95 is the p95 across per-request mean inter-token estimates derived from streamed chunks. Read/write cache percentages use reported cache tokens divided by reported input tokens; **—** means the API did not report that field. Latencies cover successful responses; success counts retain failed attempts.
@@ -58,3 +58,13 @@ TBT p95 is the p95 across per-request mean inter-token estimates derived from st
 Exact model versions: `gpt-6-luna` → `2026-09-22`, `gpt-6.1-terra` → `2026-10-26`, `gpt-5.6-luna` → `2026-07-09`, `gpt-5.6-terra` → `2026-07-09`.
 
 [Full 24-row CSV](summary.csv) · [JSON](summary.json) · [Run settings](settings.json) · [Metadata](metadata.json)
+
+## Cross-region review
+
+The all-region model-capacity API was queried for every unmeasured model/SKU combination in both the MCAPS benchmark subscription and the Azure AI MaaS subscription. There were no pagination links left unread. `not_listed_in_checked_subscriptions` means the combination had no matching SKU entry in those responses; it is scoped to the subscriptions queried.
+
+GPT-5.6 Luna Regional PTU was listed in East US 2 and UK South. The additional UK South attempt at 50 PTUs was rejected by the MCAPS Azure policy, matching the earlier East US 2 rejection. GPT-5.6 Terra Regional PTU was listed in West US, where the MCAPS attempt was also policy-rejected.
+
+Azure AI MaaS is the `azureaimaas` tenant, containing the accessible subscription displayed as **Azure subscription 1**. Its model-specific Regional PTU quotas are zero for GPT-5.6 Luna in East US 2 and UK South and GPT-5.6 Terra in West US. The general 300-PTU allowance in East US 2 and UK South is a separate quota counter and does not provide the required model-specific quota.
+
+[Sanitized capacity-query results and quota counters](availability-review.json).
