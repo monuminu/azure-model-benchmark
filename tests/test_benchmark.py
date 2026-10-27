@@ -49,6 +49,23 @@ class MetricsTests(unittest.TestCase):
             self.assertEqual(len(rows), 1)
             self.assertEqual(rows[0]["region"], "b")
 
+    def test_combine_classifies_policy_rejection(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "policy.json"
+            path.write_text(
+                json.dumps(
+                    [
+                        {
+                            "model": "test",
+                            "deployment_type": "PTU Regional",
+                            "status": "execution_failed",
+                            "error_detail": "RequestDisallowedByPolicy: denied",
+                        }
+                    ]
+                )
+            )
+            self.assertEqual(combine_reports([path])[0]["status"], "blocked_by_policy")
+
     def test_nearest_rank_p95_and_empty(self):
         self.assertEqual(percentile(list(range(1, 21)), 0.95), 19)
         self.assertIsNone(percentile([], 0.95))

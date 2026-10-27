@@ -87,6 +87,7 @@ def combine_reports(paths):
         "measured": 10,
         "warmup_failed": 5,
         "execution_failed": 4,
+        "blocked_by_policy": 4,
         "insufficient_capacity": 2,
         "insufficient_quota": 2,
         "unsupported_in_region": 0,
@@ -94,6 +95,8 @@ def combine_reports(paths):
     selected = {}
     for path in paths:
         for row in json.loads(Path(path).read_text()):
+            if "RequestDisallowedByPolicy" in row.get("error_detail", ""):
+                row = row | {"status": "blocked_by_policy"}
             key = row["model"], row["deployment_type"]
             previous = selected.get(key)
             if previous is None or priority.get(row["status"], 1) > priority.get(
