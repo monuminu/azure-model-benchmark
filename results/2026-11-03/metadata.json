@@ -11,5 +11,155 @@
   "timing_units_readme": "milliseconds",
   "workload": "Synthetic support prompt; cold unique prefix; reasoning none; output cap rather than forced generated length.",
   "new_measured_requests": 40,
-  "new_successes": 38
+  "new_successes": 38,
+  "sol_reasoning": {
+    "gpt-6-sol": "none",
+    "gpt-6.1-sol": "low"
+  },
+  "sol_versions": {
+    "gpt-6-sol": "2026-09-22",
+    "gpt-6.1-sol": "2026-09-29"
+  },
+  "sol_runner_commit": "c05309ba03fbfe4fe5344aff6cfa2dfd270416ea",
+  "sol_measurements": [
+    {
+      "model": "gpt-6-sol",
+      "deployment_type": "PayGo Global",
+      "region": "swedencentral",
+      "ptus": null,
+      "successes": 19,
+      "requests": 20
+    },
+    {
+      "model": "gpt-6-sol",
+      "deployment_type": "PayGo Data Zone",
+      "region": "swedencentral",
+      "ptus": null,
+      "successes": 20,
+      "requests": 20
+    },
+    {
+      "model": "gpt-6-sol",
+      "deployment_type": "PTU Global",
+      "region": "swedencentral",
+      "ptus": 15,
+      "successes": 19,
+      "requests": 20
+    },
+    {
+      "model": "gpt-6-sol",
+      "deployment_type": "PTU Data Zone",
+      "region": "eastus2",
+      "ptus": 15,
+      "successes": 20,
+      "requests": 20
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "deployment_type": "PayGo Global",
+      "region": "swedencentral",
+      "ptus": null,
+      "successes": 20,
+      "requests": 20
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "deployment_type": "PayGo Data Zone",
+      "region": "swedencentral",
+      "ptus": null,
+      "successes": 20,
+      "requests": 20
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "deployment_type": "PTU Global",
+      "region": "swedencentral",
+      "ptus": 15,
+      "successes": 16,
+      "requests": 20
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "deployment_type": "PTU Data Zone",
+      "region": "swedencentral",
+      "ptus": 15,
+      "successes": 16,
+      "requests": 20
+    }
+  ],
+  "failure_classes": [
+    {
+      "model": "gpt-5.6-luna",
+      "sku": "GlobalProvisionedManaged",
+      "error_class": "URLError",
+      "count": 1
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "sku": "DataZoneProvisionedManaged",
+      "error_class": "URLError",
+      "count": 1
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "sku": "DataZoneProvisionedManaged",
+      "error_class": "ValueError",
+      "count": 1
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "sku": "GlobalProvisionedManaged",
+      "error_class": "ValueError",
+      "count": 2
+    },
+    {
+      "model": "gpt-6-luna",
+      "sku": "DataZoneProvisionedManaged",
+      "error_class": "URLError",
+      "count": 2
+    },
+    {
+      "model": "gpt-6-luna",
+      "sku": "DataZoneStandard",
+      "error_class": "URLError",
+      "count": 1
+    },
+    {
+      "model": "gpt-6-sol",
+      "sku": "GlobalProvisionedManaged",
+      "error_class": "URLError",
+      "count": 1
+    },
+    {
+      "model": "gpt-6-sol",
+      "sku": "GlobalStandard",
+      "error_class": "ConnectionResetError",
+      "count": 1
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "sku": "DataZoneProvisionedManaged",
+      "error_class": "ValueError",
+      "count": 4
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "sku": "GlobalProvisionedManaged",
+      "error_class": "URLError",
+      "count": 1
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "sku": "GlobalProvisionedManaged",
+      "error_class": "ValueError",
+      "count": 3
+    },
+    {
+      "model": "gpt-6.1-terra",
+      "sku": "DataZoneStandard",
+      "error_class": "URLError",
+      "count": 1
+    }
+  ],
+  "cleanup_verified_on": "2026-11-03"
 }

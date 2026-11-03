@@ -28,3 +28,15 @@ Timing units: seconds. Cache units: percent of input tokens. TBT percentiles are
 | gpt-5.6-terra | PTU Global | swedencentral | 15 | measured | 20 | 18 | 2 | 1.9868 | 1.6980 | 0.0076 | 0.0084 | 3.9146 | 4.4347 | 0.0000 | 0.0000 | 3012 | 290.5556 |
 | gpt-5.6-terra | PTU Data Zone | swedencentral | 15 | measured | 20 | 18 | 2 | 1.8273 | 1.6366 | 0.0078 | 0.0121 | 3.9823 | 5.4124 | 0.0000 | 0.0000 | 3012 | 299.5000 |
 | gpt-5.6-terra | PTU Regional | westus | 50 | blocked_by_policy | 0 | 0 | 0 | — | — | — | — | — | — | — | — | — | — |
+| gpt-6-sol | PayGo Global | swedencentral | — | measured | 20 | 19 | 1 | 4.3632 | 2.2097 | 0.0079 | 0.0101 | 2.9552 | 5.1809 | 0.0000 | 99.9004 | 3012 | 95.1579 |
+| gpt-6-sol | PayGo Data Zone | swedencentral | — | measured | 20 | 20 | 0 | 1.8812 | 1.6801 | 0.0094 | 0.0109 | 2.4356 | 4.4568 | 0.0000 | 99.9004 | 3012 | 79 |
+| gpt-6-sol | PayGo Regional | all_regions_checked | — | not_listed_in_checked_subscriptions | 0 | 0 | 0 | — | — | — | — | — | — | — | — | — | — |
+| gpt-6-sol | PTU Global | swedencentral | 15 | measured | 20 | 19 | 1 | 6.7791 | 2.6828 | 0.0058 | 0.0091 | 3.1587 | 7.3534 | 0.0000 | 99.9004 | 3012 | 79.9474 |
+| gpt-6-sol | PTU Data Zone | eastus2 | 15 | measured | 20 | 20 | 0 | 3.0026 | 2.0794 | 0.0064 | 0.0086 | 2.6437 | 3.5109 | 0.0000 | 99.9004 | 3012 | 87.4000 |
+| gpt-6-sol | PTU Regional | uaenorth | 50 | blocked_by_policy | 0 | 0 | 0 | — | — | — | — | — | — | — | — | — | — |
+| gpt-6.1-sol | PayGo Global | swedencentral | — | measured | 20 | 20 | 0 | 3.1656 | 2.3656 | 0.0152 | 0.0167 | 6.8418 | 8.5504 | 0.0000 | 99.9004 | 3012 | 302 |
+| gpt-6.1-sol | PayGo Data Zone | swedencentral | — | measured | 20 | 20 | 0 | 3.2055 | 2.3475 | 0.0147 | 0.0164 | 6.6759 | 7.4084 | 0.0000 | 99.9004 | 3012 | 302 |
+| gpt-6.1-sol | PayGo Regional | all_regions_checked | — | not_listed_in_checked_subscriptions | 0 | 0 | 0 | — | — | — | — | — | — | — | — | — | — |
+| gpt-6.1-sol | PTU Global | swedencentral | 15 | measured | 20 | 16 | 4 | 4.4834 | 2.4615 | 0.0119 | 0.0161 | 5.9896 | 7.5336 | 0.0000 | 99.9004 | 3012 | 302 |
+| gpt-6.1-sol | PTU Data Zone | swedencentral | 15 | measured | 20 | 16 | 4 | 3.7686 | 2.1439 | 0.0117 | 0.0128 | 5.5822 | 7.1835 | 0.0000 | 99.9004 | 3012 | 302 |
+| gpt-6.1-sol | PTU Regional | all_regions_checked | — | not_listed_in_checked_subscriptions | 0 | 0 | 0 | — | — | — | — | — | — | — | — | — | — |

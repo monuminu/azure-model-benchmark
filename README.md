@@ -4,7 +4,7 @@ Benchmark Azure OpenAI models through the **Responses API**, on PayGo and provis
 
 ## Measured results
 
-[Latest combined table — updated 3 November 2026](results/2026-11-03/README.md): **14 measured deployments**, including GPT-6 Luna Global and Data Zone PTU at 15 PTUs. All 24 requested combinations, measurement dates, actual token averages and sanitized request timings are included.
+[Latest combined table — updated 3 November 2026](results/2026-11-03/README.md): **22 measured deployments**, including GPT-6 Luna, GPT-6 Sol and GPT-6.1 Sol PayGo/PTU. All 36 requested combinations, measurement dates, actual token averages and sanitized request timings are included.
 
 [Original 27 October results](results/2026-10-27/README.md) remain available as the historical snapshot.
 
@@ -64,6 +64,8 @@ azbench matrix --config matrix.local.toml --output runs/model-matrix --allow-cre
 `--allow-create` explicitly enables **billable temporary deployments**. The matrix reads the live Azure catalog, model version, SKU minimum/increment, quota and allocatable capacity before each creation. Targets execute sequentially, and the runner deletes each uniquely named deployment in `finally` before moving on. It does not purchase reservations, change RBAC, modify resource networking or resize existing deployments. No credentials are written to results.
 
 Configure `ptus` for Global/Data Zone, `ptu_regional` for Regional, and `paygo_capacity` in 1,000-TPM capacity units. All values are checked against the live model SKU. Unsupported combinations remain rows in the result table rather than being replaced by another model or scope. Run the matrix against another account/region to cover Regional offerings available there.
+
+For `gpt-6.1-sol`, run a separate configuration with `reasoning_effort = "low"` (or another supported level). The service rejects `none` for this model. The latest results record the reasoning setting and total/reasoning/visible output-token averages.
 
 The example selects `gpt-6-luna`, `gpt-6.1-terra`, `gpt-5.6-luna` and `gpt-5.6-terra`. Exact model names are preserved. `GPT-6.1 Terra` is not silently relabelled as `GPT-6 Terra`.
 

@@ -22,7 +22,10 @@
     "write_cache_pct": 99.9003984063745,
     "mean_input_tokens": 3012,
     "mean_output_tokens": 81.45,
-    "measured_on": "2026-10-27"
+    "measured_on": "2026-10-27",
+    "reasoning_effort": "none",
+    "mean_reasoning_tokens": 0.0,
+    "mean_visible_output_tokens": 81.45
   },
   {
     "model": "gpt-6-luna",
@@ -47,7 +50,10 @@
     "write_cache_pct": 99.9003984063745,
     "mean_input_tokens": 3012,
     "mean_output_tokens": 69.05263157894737,
-    "measured_on": "2026-10-27"
+    "measured_on": "2026-10-27",
+    "reasoning_effort": "none",
+    "mean_reasoning_tokens": 0.0,
+    "mean_visible_output_tokens": 69.05263157894737
   },
   {
     "model": "gpt-6-luna",
@@ -59,7 +65,8 @@
     "successes": 0,
     "failures": 0,
     "availability_check": "All-region capacity queries in MCAPS benchmark and Azure AI MaaS subscriptions; no matching SKU entry.",
-    "measured_on": null
+    "measured_on": null,
+    "reasoning_effort": "none"
   },
   {
     "model": "gpt-6-luna",
@@ -84,7 +91,10 @@
     "write_cache_pct": 99.9003984063745,
     "mean_input_tokens": 3012,
     "mean_output_tokens": 84.2,
-    "measured_on": "2026-11-03"
+    "measured_on": "2026-11-03",
+    "reasoning_effort": "none",
+    "mean_reasoning_tokens": 0.0,
+    "mean_visible_output_tokens": 84.2
   },
   {
     "model": "gpt-6-luna",
@@ -109,7 +119,10 @@
     "write_cache_pct": 99.9003984063745,
     "mean_input_tokens": 3012,
     "mean_output_tokens": 76.11111111111111,
-    "measured_on": "2026-11-03"
+    "measured_on": "2026-11-03",
+    "reasoning_effort": "none",
+    "mean_reasoning_tokens": 0.0,
+    "mean_visible_output_tokens": 76.11111111111111
   },
   {
     "model": "gpt-6-luna",
@@ -121,7 +134,8 @@
     "successes": 0,
     "failures": 0,
     "availability_check": "All-region capacity queries in MCAPS benchmark and Azure AI MaaS subscriptions; no matching SKU entry.",
-    "measured_on": null
+    "measured_on": null,
+    "reasoning_effort": "none"
   },
   {
     "model": "gpt-6.1-terra",
@@ -146,7 +160,10 @@
     "write_cache_pct": 99.9003984063745,
     "mean_input_tokens": 3012,
     "mean_output_tokens": 90.3,
-    "measured_on": "2026-10-27"
+    "measured_on": "2026-10-27",
+    "reasoning_effort": "none",
+    "mean_reasoning_tokens": 0.0,
+    "mean_visible_output_tokens": 90.3
   },
   {
     "model": "gpt-6.1-terra",
@@ -171,7 +188,10 @@
     "write_cache_pct": 99.9003984063745,
     "mean_input_tokens": 3012,
     "mean_output_tokens": 92.47368421052632,
-    "measured_on": "2026-10-27"
+    "measured_on": "2026-10-27",
+    "reasoning_effort": "none",
+    "mean_reasoning_tokens": 0.0,
+    "mean_visible_output_tokens": 92.47368421052632
   },
   {
     "model": "gpt-6.1-terra",
@@ -183,7 +203,8 @@
     "successes": 0,
     "failures": 0,
     "availability_check": "All-region capacity queries in MCAPS benchmark and Azure AI MaaS subscriptions; no matching SKU entry.",
-    "measured_on": null
+    "measured_on": null,
+    "reasoning_effort": "none"
   },
   {
     "model": "gpt-6.1-terra",
@@ -196,7 +217,8 @@
     "failures": 0,
     "availability_check": "No managed PTU SKU returned by all-region queries in MCAPS and Azure AI MaaS. Separate Provisioned SKU in MaaS has zero available capacity.",
     "measured_on": null,
-    "availability_checked_on": "2026-11-03"
+    "availability_checked_on": "2026-11-03",
+    "reasoning_effort": "none"
   },
   {
     "model": "gpt-6.1-terra",
@@ -209,7 +231,8 @@
     "failures": 0,
     "availability_check": "No managed PTU SKU returned by all-region queries in MCAPS and Azure AI MaaS. Separate Provisioned SKU in MaaS has zero available capacity.",
     "measured_on": null,
-    "availability_checked_on": "2026-11-03"
+    "availability_checked_on": "2026-11-03",
+    "reasoning_effort": "none"
   },
   {
     "model": "gpt-6.1-terra",
@@ -222,7 +245,8 @@
     "failures": 0,
     "availability_check": "No managed PTU SKU returned by all-region queries in MCAPS and Azure AI MaaS. Separate Provisioned SKU in MaaS has zero available capacity.",
     "measured_on": null,
-    "availability_checked_on": "2026-11-03"
+    "availability_checked_on": "2026-11-03",
+    "reasoning_effort": "none"
   },
   {
     "model": "gpt-5.6-luna",
@@ -247,7 +271,10 @@
     "write_cache_pct": 99.9003984063745,
     "mean_input_tokens": 3012,
     "mean_output_tokens": 292.85,
-    "measured_on": "2026-10-27"
+    "measured_on": "2026-10-27",
+    "reasoning_effort": "none",
+    "mean_reasoning_tokens": 0.0,
+    "mean_visible_output_tokens": 292.85
   },
   {
     "model": "gpt-5.6-luna",
@@ -272,7 +299,10 @@
     "write_cache_pct": 99.9003984063745,
     "mean_input_tokens": 3012,
     "mean_output_tokens": 287.7,
-    "measured_on": "2026-10-27"
+    "measured_on": "2026-10-27",
+    "reasoning_effort": "none",
+    "mean_reasoning_tokens": 0.0,
+    "mean_visible_output_tokens": 287.7
   },
   {
     "model": "gpt-5.6-luna",
@@ -284,7 +314,8 @@
     "successes": 0,
     "failures": 0,
     "availability_check": "All-region capacity queries in MCAPS benchmark and Azure AI MaaS subscriptions; no matching SKU entry.",
-    "measured_on": null
+    "measured_on": null,
+    "reasoning_effort": "none"
   },
   {
     "model": "gpt-5.6-luna",
@@ -309,7 +340,10 @@
     "write_cache_pct": 0.0,
     "mean_input_tokens": 3012,
     "mean_output_tokens": 293.3157894736842,
-    "measured_on": "2026-10-27"
+    "measured_on": "2026-10-27",
+    "reasoning_effort": "none",
+    "mean_reasoning_tokens": 0.0,
+    "mean_visible_output_tokens": 293.3157894736842
   },
   {
     "model": "gpt-5.6-luna",
@@ -334,7 +368,10 @@
     "write_cache_pct": 0.0,
     "mean_input_tokens": 3012,
     "mean_output_tokens": 292.9,
-    "measured_on": "2026-10-27"
+    "measured_on": "2026-10-27",
+    "reasoning_effort": "none",
+    "mean_reasoning_tokens": 0.0,
+    "mean_visible_output_tokens": 292.9
   },
   {
     "model": "gpt-5.6-luna",
@@ -348,7 +385,8 @@
     "error_type": "RuntimeError",
     "availability_check": "MCAPS deployment rejected by policy; Azure AI MaaS model-specific Regional PTU quota is zero.",
     "additional_region_checked": "uksouth: deployment rejected by policy",
-    "measured_on": null
+    "measured_on": null,
+    "reasoning_effort": "none"
   },
   {
     "model": "gpt-5.6-terra",
@@ -373,7 +411,10 @@
     "write_cache_pct": 99.9003984063745,
     "mean_input_tokens": 3012,
     "mean_output_tokens": 296.55,
-    "measured_on": "2026-10-27"
+    "measured_on": "2026-10-27",
+    "reasoning_effort": "none",
+    "mean_reasoning_tokens": 0.0,
+    "mean_visible_output_tokens": 296.55
   },
   {
     "model": "gpt-5.6-terra",
@@ -398,7 +439,10 @@
     "write_cache_pct": 99.9003984063745,
     "mean_input_tokens": 3012,
     "mean_output_tokens": 296.55,
-    "measured_on": "2026-10-27"
+    "measured_on": "2026-10-27",
+    "reasoning_effort": "none",
+    "mean_reasoning_tokens": 0.0,
+    "mean_visible_output_tokens": 296.55
   },
   {
     "model": "gpt-5.6-terra",
@@ -410,7 +454,8 @@
     "successes": 0,
     "failures": 0,
     "availability_check": "All-region capacity queries in MCAPS benchmark and Azure AI MaaS subscriptions; no matching SKU entry.",
-    "measured_on": null
+    "measured_on": null,
+    "reasoning_effort": "none"
   },
   {
     "model": "gpt-5.6-terra",
@@ -435,7 +480,10 @@
     "write_cache_pct": 0.0,
     "mean_input_tokens": 3012,
     "mean_output_tokens": 290.55555555555554,
-    "measured_on": "2026-10-27"
+    "measured_on": "2026-10-27",
+    "reasoning_effort": "none",
+    "mean_reasoning_tokens": 0.0,
+    "mean_visible_output_tokens": 290.55555555555554
   },
   {
     "model": "gpt-5.6-terra",
@@ -460,7 +508,10 @@
     "write_cache_pct": 0.0,
     "mean_input_tokens": 3012,
     "mean_output_tokens": 299.5,
-    "measured_on": "2026-10-27"
+    "measured_on": "2026-10-27",
+    "reasoning_effort": "none",
+    "mean_reasoning_tokens": 0.0,
+    "mean_visible_output_tokens": 299.5
   },
   {
     "model": "gpt-5.6-terra",
@@ -473,6 +524,292 @@
     "failures": 0,
     "error_type": "RuntimeError",
     "availability_check": "MCAPS deployment rejected by policy; Azure AI MaaS model-specific Regional PTU quota is zero.",
+    "measured_on": null,
+    "reasoning_effort": "none"
+  },
+  {
+    "model": "gpt-6-sol",
+    "deployment_type": "PayGo Global",
+    "region": "swedencentral",
+    "ptus": null,
+    "verification": "azure_management_plane",
+    "status": "measured",
+    "api": "responses",
+    "arrival_window_s": 60,
+    "wall_s": 64.75063304207288,
+    "requests": 20,
+    "successes": 19,
+    "failures": 1,
+    "ttft_avg": 2.209703225905909,
+    "ttft_95th": 4.363243708969094,
+    "tbt_avg": 0.007947238245651838,
+    "tbt_95th": 0.010062994047378501,
+    "e2e_avg": 2.9551649453290003,
+    "e2e_95th": 5.180851666955277,
+    "read_cache_pct": 0.0,
+    "write_cache_pct": 99.9003984063745,
+    "mean_input_tokens": 3012,
+    "mean_output_tokens": 95.15789473684211,
+    "reasoning_effort": "none",
+    "availability_checked_on": "2026-11-03",
+    "measured_on": "2026-11-03",
+    "mean_reasoning_tokens": 0.0,
+    "mean_visible_output_tokens": 95.15789473684211
+  },
+  {
+    "model": "gpt-6-sol",
+    "deployment_type": "PayGo Data Zone",
+    "region": "swedencentral",
+    "ptus": null,
+    "verification": "azure_management_plane",
+    "status": "measured",
+    "api": "responses",
+    "arrival_window_s": 59.24992229195777,
+    "wall_s": 59.249926583026536,
+    "requests": 20,
+    "successes": 20,
+    "failures": 0,
+    "ttft_avg": 1.6801183248520828,
+    "ttft_95th": 1.881173082976602,
+    "tbt_avg": 0.009425537258009343,
+    "tbt_95th": 0.01091693526205535,
+    "e2e_avg": 2.4355971394397784,
+    "e2e_95th": 4.456791334087029,
+    "read_cache_pct": 0.0,
+    "write_cache_pct": 99.9003984063745,
+    "mean_input_tokens": 3012,
+    "mean_output_tokens": 79,
+    "reasoning_effort": "none",
+    "availability_checked_on": "2026-11-03",
+    "measured_on": "2026-11-03",
+    "mean_reasoning_tokens": 0.0,
+    "mean_visible_output_tokens": 79.0
+  },
+  {
+    "model": "gpt-6-sol",
+    "deployment_type": "PayGo Regional",
+    "region": "all_regions_checked",
+    "ptus": null,
+    "status": "not_listed_in_checked_subscriptions",
+    "requests": 0,
+    "successes": 0,
+    "failures": 0,
+    "reasoning_effort": "none",
+    "availability_checked_on": "2026-11-03",
+    "measured_on": null
+  },
+  {
+    "model": "gpt-6-sol",
+    "deployment_type": "PTU Global",
+    "region": "swedencentral",
+    "ptus": 15,
+    "verification": "azure_management_plane",
+    "status": "measured",
+    "api": "responses",
+    "arrival_window_s": 60,
+    "wall_s": 63.3900961659383,
+    "requests": 20,
+    "successes": 19,
+    "failures": 1,
+    "ttft_avg": 2.6827889934586557,
+    "ttft_95th": 6.7791060419986024,
+    "tbt_avg": 0.005847692771855405,
+    "tbt_95th": 0.009120974720257228,
+    "e2e_avg": 3.158657964943957,
+    "e2e_95th": 7.353411666932516,
+    "read_cache_pct": 0.0,
+    "write_cache_pct": 99.9003984063745,
+    "mean_input_tokens": 3012,
+    "mean_output_tokens": 79.94736842105263,
+    "reasoning_effort": "none",
+    "availability_checked_on": "2026-11-03",
+    "measured_on": "2026-11-03",
+    "mean_reasoning_tokens": 0.0,
+    "mean_visible_output_tokens": 79.94736842105263
+  },
+  {
+    "model": "gpt-6-sol",
+    "deployment_type": "PTU Data Zone",
+    "region": "eastus2",
+    "ptus": 15,
+    "verification": "azure_management_plane",
+    "status": "measured",
+    "api": "responses",
+    "arrival_window_s": 59.400500042014755,
+    "wall_s": 59.400503334007226,
+    "requests": 20,
+    "successes": 20,
+    "failures": 0,
+    "ttft_avg": 2.0794146271655336,
+    "ttft_95th": 3.002634875010699,
+    "tbt_avg": 0.0064412098466060325,
+    "tbt_95th": 0.008566071120781246,
+    "e2e_avg": 2.643660318799084,
+    "e2e_95th": 3.510890792007558,
+    "read_cache_pct": 0.0,
+    "write_cache_pct": 99.9003984063745,
+    "mean_input_tokens": 3012,
+    "mean_output_tokens": 87.4,
+    "reasoning_effort": "none",
+    "availability_checked_on": "2026-11-03",
+    "measured_on": "2026-11-03",
+    "mean_reasoning_tokens": 0.0,
+    "mean_visible_output_tokens": 87.4
+  },
+  {
+    "model": "gpt-6-sol",
+    "deployment_type": "PTU Regional",
+    "region": "uaenorth",
+    "ptus": 50,
+    "status": "blocked_by_policy",
+    "requests": 0,
+    "successes": 0,
+    "failures": 0,
+    "error_type": "RuntimeError",
+    "reasoning_effort": "none",
+    "availability_checked_on": "2026-11-03",
+    "measured_on": null
+  },
+  {
+    "model": "gpt-6.1-sol",
+    "deployment_type": "PayGo Global",
+    "region": "swedencentral",
+    "ptus": null,
+    "verification": "azure_management_plane",
+    "status": "measured",
+    "api": "responses",
+    "arrival_window_s": 60,
+    "wall_s": 63.42964012501761,
+    "requests": 20,
+    "successes": 20,
+    "failures": 0,
+    "ttft_avg": 2.3655608956993093,
+    "ttft_95th": 3.165596584090963,
+    "tbt_avg": 0.015194179445124812,
+    "tbt_95th": 0.01672632791671821,
+    "e2e_avg": 6.841756726999302,
+    "e2e_95th": 8.550351708079688,
+    "read_cache_pct": 0.0,
+    "write_cache_pct": 99.9003984063745,
+    "mean_input_tokens": 3012,
+    "mean_output_tokens": 302,
+    "reasoning_effort": "low",
+    "availability_checked_on": "2026-11-03",
+    "measured_on": "2026-11-03",
+    "mean_reasoning_tokens": 9.5,
+    "mean_visible_output_tokens": 292.5
+  },
+  {
+    "model": "gpt-6.1-sol",
+    "deployment_type": "PayGo Data Zone",
+    "region": "swedencentral",
+    "ptus": null,
+    "verification": "azure_management_plane",
+    "status": "measured",
+    "api": "responses",
+    "arrival_window_s": 60,
+    "wall_s": 63.00591158296447,
+    "requests": 20,
+    "successes": 20,
+    "failures": 0,
+    "ttft_avg": 2.347471224947367,
+    "ttft_95th": 3.205517249996774,
+    "tbt_avg": 0.014672992556843787,
+    "tbt_95th": 0.016410808771717966,
+    "e2e_avg": 6.67592466234928,
+    "e2e_95th": 7.408412916003726,
+    "read_cache_pct": 0.0,
+    "write_cache_pct": 99.9003984063745,
+    "mean_input_tokens": 3012,
+    "mean_output_tokens": 302,
+    "reasoning_effort": "low",
+    "availability_checked_on": "2026-11-03",
+    "measured_on": "2026-11-03",
+    "mean_reasoning_tokens": 7.35,
+    "mean_visible_output_tokens": 294.65
+  },
+  {
+    "model": "gpt-6.1-sol",
+    "deployment_type": "PayGo Regional",
+    "region": "all_regions_checked",
+    "ptus": null,
+    "status": "not_listed_in_checked_subscriptions",
+    "requests": 0,
+    "successes": 0,
+    "failures": 0,
+    "reasoning_effort": "low",
+    "availability_checked_on": "2026-11-03",
+    "measured_on": null
+  },
+  {
+    "model": "gpt-6.1-sol",
+    "deployment_type": "PTU Global",
+    "region": "swedencentral",
+    "ptus": 15,
+    "verification": "azure_management_plane",
+    "status": "measured",
+    "api": "responses",
+    "arrival_window_s": 58.27407829195727,
+    "wall_s": 58.27408166695386,
+    "requests": 20,
+    "successes": 16,
+    "failures": 4,
+    "ttft_avg": 2.461517304604058,
+    "ttft_95th": 4.483409042004496,
+    "tbt_avg": 0.01190603095930087,
+    "tbt_95th": 0.016052159551594048,
+    "e2e_avg": 5.9896038931037765,
+    "e2e_95th": 7.53357212501578,
+    "read_cache_pct": 0.0,
+    "write_cache_pct": 99.9003984063745,
+    "mean_input_tokens": 3012,
+    "mean_output_tokens": 302,
+    "reasoning_effort": "low",
+    "availability_checked_on": "2026-11-03",
+    "measured_on": "2026-11-03",
+    "mean_reasoning_tokens": 6.125,
+    "mean_visible_output_tokens": 295.875
+  },
+  {
+    "model": "gpt-6.1-sol",
+    "deployment_type": "PTU Data Zone",
+    "region": "swedencentral",
+    "ptus": 15,
+    "verification": "azure_management_plane",
+    "status": "measured",
+    "api": "responses",
+    "arrival_window_s": 59.055982541060075,
+    "wall_s": 59.05598362500314,
+    "requests": 20,
+    "successes": 16,
+    "failures": 4,
+    "ttft_avg": 2.143918979112641,
+    "ttft_95th": 3.768567166989669,
+    "tbt_avg": 0.01174907285923063,
+    "tbt_95th": 0.012836047212037145,
+    "e2e_avg": 5.582170588502777,
+    "e2e_95th": 7.183549458044581,
+    "read_cache_pct": 0.0,
+    "write_cache_pct": 99.9003984063745,
+    "mean_input_tokens": 3012,
+    "mean_output_tokens": 302,
+    "reasoning_effort": "low",
+    "availability_checked_on": "2026-11-03",
+    "measured_on": "2026-11-03",
+    "mean_reasoning_tokens": 10.0,
+    "mean_visible_output_tokens": 292.0
+  },
+  {
+    "model": "gpt-6.1-sol",
+    "deployment_type": "PTU Regional",
+    "region": "all_regions_checked",
+    "ptus": null,
+    "status": "not_listed_in_checked_subscriptions",
+    "requests": 0,
+    "successes": 0,
+    "failures": 0,
+    "reasoning_effort": "low",
+    "availability_checked_on": "2026-11-03",
     "measured_on": null
   }
 ]
