@@ -4,7 +4,9 @@ Benchmark Azure OpenAI models through the **Responses API**, on PayGo and provis
 
 ## Measured results
 
-[27 October 2026: live Responses API table](results/2026-10-27/README.md) — 12 measured deployments, all 24 requested model/type combinations, actual token averages and sanitized request timings.
+[Latest combined table — updated 3 November 2026](results/2026-11-03/README.md): **14 measured deployments**, including GPT-6 Luna Global and Data Zone PTU at 15 PTUs. All 24 requested combinations, measurement dates, actual token averages and sanitized request timings are included.
+
+[Original 27 October results](results/2026-10-27/README.md) remain available as the historical snapshot.
 
 ## Install
 

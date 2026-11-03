@@ -1,0 +1,593 @@
+{
+  "checked_on": "2026-11-03",
+  "query_scope": "all regions",
+  "api_version": "2024-10-01",
+  "results": [
+    {
+      "subscription_scope": "MCAPS",
+      "model": "gpt-6-luna",
+      "version": "2026-09-22",
+      "next_page": false,
+      "matches": [
+        {
+          "region": "australiaeast",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "brazilsouth",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "westus",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "westus",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 50
+        },
+        {
+          "region": "westeurope",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "westeurope",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 50
+        },
+        {
+          "region": "southeastasia",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "southcentralus",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "southcentralus",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 50
+        },
+        {
+          "region": "eastus",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "eastus",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 50
+        },
+        {
+          "region": "eastus2",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "eastus2",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 50
+        },
+        {
+          "region": "canadacentral",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "japaneast",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "uksouth",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "koreacentral",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "francecentral",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "francecentral",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 50
+        },
+        {
+          "region": "northcentralus",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "northcentralus",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 50
+        },
+        {
+          "region": "centralus",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "centralus",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 50
+        },
+        {
+          "region": "southafricanorth",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "uaenorth",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "swedencentral",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "swedencentral",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 50
+        },
+        {
+          "region": "switzerlandnorth",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "switzerlandwest",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "germanywestcentral",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "germanywestcentral",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 50
+        },
+        {
+          "region": "norwayeast",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "westus3",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "westus3",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 50
+        },
+        {
+          "region": "canadaeast",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "polandcentral",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "polandcentral",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 50
+        },
+        {
+          "region": "southindia",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "italynorth",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "italynorth",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 50
+        },
+        {
+          "region": "spaincentral",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 85
+        },
+        {
+          "region": "spaincentral",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 50
+        }
+      ]
+    },
+    {
+      "subscription_scope": "MCAPS",
+      "model": "gpt-6.1-terra",
+      "version": "2026-10-26",
+      "next_page": false,
+      "matches": []
+    },
+    {
+      "subscription_scope": "Azure AI MaaS",
+      "model": "gpt-6-luna",
+      "version": "2026-09-22",
+      "next_page": false,
+      "matches": [
+        {
+          "region": "australiaeast",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "brazilsouth",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "westus",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "westus",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 300
+        },
+        {
+          "region": "westeurope",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "westeurope",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 300
+        },
+        {
+          "region": "southeastasia",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "southcentralus",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "southcentralus",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 300
+        },
+        {
+          "region": "eastus",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "eastus",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 300
+        },
+        {
+          "region": "eastus2",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "eastus2",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 300
+        },
+        {
+          "region": "canadacentral",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "japaneast",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "uksouth",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "koreacentral",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "francecentral",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "francecentral",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 300
+        },
+        {
+          "region": "northcentralus",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "northcentralus",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 300
+        },
+        {
+          "region": "centralus",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "centralus",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 300
+        },
+        {
+          "region": "southafricanorth",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "uaenorth",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "swedencentral",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "swedencentral",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 300
+        },
+        {
+          "region": "switzerlandnorth",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "switzerlandwest",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "germanywestcentral",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "germanywestcentral",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 300
+        },
+        {
+          "region": "norwayeast",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "westus3",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "westus3",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 300
+        },
+        {
+          "region": "canadaeast",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "polandcentral",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "polandcentral",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 300
+        },
+        {
+          "region": "southindia",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "italynorth",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "italynorth",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 300
+        },
+        {
+          "region": "spaincentral",
+          "sku": "GlobalProvisionedManaged",
+          "available_capacity": 3455
+        },
+        {
+          "region": "spaincentral",
+          "sku": "DataZoneProvisionedManaged",
+          "available_capacity": 300
+        }
+      ]
+    },
+    {
+      "subscription_scope": "Azure AI MaaS",
+      "model": "gpt-6.1-terra",
+      "version": "2026-10-26",
+      "next_page": false,
+      "matches": [
+        {
+          "region": "australiaeast",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "brazilsouth",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "westus",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "westeurope",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "southeastasia",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "southcentralus",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "eastus",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "canadacentral",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "japaneast",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "uksouth",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "koreacentral",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "francecentral",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "northcentralus",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "centralus",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "southafricanorth",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "uaenorth",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "swedencentral",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "switzerlandnorth",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "switzerlandwest",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "germanywestcentral",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "norwayeast",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "westus3",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "canadaeast",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "polandcentral",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "southindia",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "italynorth",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        },
+        {
+          "region": "spaincentral",
+          "sku": "Provisioned",
+          "available_capacity": 0
+        }
+      ]
+    }
+  ]
+}

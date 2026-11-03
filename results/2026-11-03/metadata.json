@@ -1,0 +1,15 @@
+{
+  "updated_on": "2026-11-03",
+  "api": "responses",
+  "runner_commit": "4f3e85d025de3cff3e50a960e690b43ec2921e3f",
+  "new_measurements": [
+    "gpt-6-luna / GlobalProvisionedManaged",
+    "gpt-6-luna / DataZoneProvisionedManaged"
+  ],
+  "previous_measurements": "2026-10-27",
+  "timing_units_csv": "seconds",
+  "timing_units_readme": "milliseconds",
+  "workload": "Synthetic support prompt; cold unique prefix; reasoning none; output cap rather than forced generated length.",
+  "new_measured_requests": 40,
+  "new_successes": 38
+}
